@@ -17,6 +17,6 @@ function sendemail() {
         Subject: subject,
         Body: body
     }).then(
-        message => alert(message + ", your message successfully sent")
+        message => alert(message)
     );
 }
