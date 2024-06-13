@@ -1,0 +1,84 @@
+.btnscontainers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*------
+    width: 800px1;
+    height: 400px; SRCSS----------*/
+}
+
+.btn {
+    position: relative;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #000000;
+    background: #fff01f;
+    border: 4px solid #fa8888;
+    padding: 2rem 6rem;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn:nth-child(1):hover {
+    border-color: #00ff00;
+    color: #00ff00;
+    box-shadow: 0 0 0 #00ff00;
+    animation: box 3s infinite;
+}
+
+.btn:nth-child(2):hover {
+    border-color: #ff1818;
+    color: #ff1818;
+    box-shadow: 0 0 0 #ff1818;
+    animation: box 3s infinite;
+}
+
+.btn:nth-child(3):hover {
+    border-color: #0066ff;
+    color: #0066ff;
+    box-shadow: 0 0 0 #0066ff;
+    animation: box 3s infinite;
+}
+
+.btn:nth-child(4):hover {
+    border-color: #d400ff;
+    color: #d400ff;
+    box-shadow: 0 0 0 #d400ff;
+    animation: box 3s infinite;
+}
+
+.btn:nth-child(5):hover {
+    border-color: #fff01f;
+    color: #fff01f;
+    box-shadow: 0 0 0 #fff01f;
+    animation: box 3s infinite;
+}
+
+.btn:nth-child(6):hover {
+    border-color: #04dcf8;
+    color: #04dcf8;
+    box-shadow: 0 0 0 #04dcf8;
+    animation: box 3s infinite;
+}
+
+@keyframes box {
+    0% {
+        box-shadow: #27272c;
+    }
+
+    50% {
+        box-shadow: 0 0 27px;
+    }
+
+    100% {
+        box-shadow: #27272c;
+    }
+}
