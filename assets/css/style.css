@@ -2248,7 +2248,7 @@ nav.menu-wrap2 > ul {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   padding: 0 1.85rem;
-  opacity: 0;
+  opacity: 50;
   z-index: 1;
 }
 .port-info3 > a {
