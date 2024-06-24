@@ -2229,9 +2229,11 @@ nav.menu-wrap2 > ul {
 
 /*===== Portfolio Style 3 =====*/
 .port-box3 > img {
+  filter: blur(0px);
   opacity: 1;
 }
 .port-box3:hover > img {
+  filter: blur(7px);
   opacity: 0.5;
 }
 .port-box3 > a {
