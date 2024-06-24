@@ -2234,7 +2234,7 @@ nav.menu-wrap2 > ul {
 }
 .port-box3:hover > img {
   filter: blur(7px);
-  opacity: 0.1;
+  opacity: 0.9;
 }
 .port-box3 > a {
   top: 0;
