@@ -518,9 +518,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-.img {
-border-radius: 50%;
-    }
 
 .left-img {left: -18rem;}
 .right-img {right: -18rem;}
@@ -532,6 +529,9 @@ border-radius: 50%;
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.img-fluid {
+border-radius: 50%;
+    }
 
 /*=== Width ===*/
 .wdth5 {width: 5%;}
