@@ -530,8 +530,8 @@ img {
   transform: translateY(-50%);
 }
 #img-fluid2 {
-border-radius: 5%;
-border: 10px solid #496ddb;
+border-radius: 50%;
+border: 10px solid white;
     }
 
 /*=== Width ===*/
