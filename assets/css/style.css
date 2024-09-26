@@ -518,6 +518,9 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+.img-fluid {
+.border-radius: 50%;
+    }
 
 .left-img {left: -18rem;}
 .right-img {right: -18rem;}
