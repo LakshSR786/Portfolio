@@ -513,6 +513,11 @@ iframe {
 }
 
 /*=== Image ===*/
+#img-fluid2 {
+border-radius: 50%;
+border: 20px solid white;
+    }
+
 img {
   height: auto;
   max-width: 100%;
@@ -529,10 +534,6 @@ img {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-#img-fluid2 {
-border-radius: 50%;
-border: 10px solid white;
-    }
 
 /*=== Width ===*/
 .wdth5 {width: 5%;}
